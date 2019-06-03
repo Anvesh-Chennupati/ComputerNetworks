@@ -1,0 +1,264 @@
+[achennup@linux60409 Assignment-1]$ gcc -o client client.c
+[achennup@linux60409 Assignment-1]$ ./client
+Socket created
+
+~~~~~~~~~~~~~~~~~~~~~~~Choose one of the options from below~~~~~~~~~~~~~~~~~~~~~~~
+
+1. Send Packets
+2. Simulate Out of Sequence error
+3. Simulate Length Mismatch error
+4. Simulate Missing End of Packet Identifier error
+5. Simulate Duplicate Packet error
+6. All errors
+7. Timer case
+8. Exit
+1
+
+~~~~~~~~~~~~~~~~~~~~~~~Sending 5 packets to server with no error~~~~~~~~~~~~~~~~~~~~~~~
+
+DATA PACKET---->
+Start of Packet:        0xffff
+Client ID:              0xff
+Packet Type:            0xfff1
+Segment Number:         1
+Length of Payload:      3 
+Payload:                1 1 1 
+End of Packet:          0xffff
+
+
+ACKNOWLEDGMENT PACKET---->
+Start of Packet:        0xffff
+Client ID:              0xff
+Packet Type:            0xfff2
+Segment Number:         1
+End of Packet:          0xffff
+
+
+DATA PACKET---->
+Start of Packet:        0xffff
+Client ID:              0xff                                                                                            
+Packet Type:            0xfff1                                                                                          
+Segment Number:         2                                                                                               
+Length of Payload:      3                                                                                               
+Payload:                2 2 2                                                                                           
+End of Packet:          0xffff                                                                                          
+                                                                                                                        
+                                                                                                                        
+ACKNOWLEDGMENT PACKET---->                                                                                              
+Start of Packet:        0xffff                                                                                          
+Client ID:              0xff                                                                                            
+Packet Type:            0xfff2                                                                                          
+Segment Number:         2                                                                                               
+End of Packet:          0xffff                                                                                          
+                                                                                                                        
+                                                                                                                        
+DATA PACKET---->                                                                                                        
+Start of Packet:        0xffff                                                                                          
+Client ID:              0xff                                                                                            
+Packet Type:            0xfff1                                                                                          
+Segment Number:         3                                                                                               
+Length of Payload:      3                                                                                               
+Payload:                3 3 3                                                                                           
+End of Packet:          0xffff                                                                                          
+                                                                                                                        
+                                                                                                                        
+ACKNOWLEDGMENT PACKET---->                                                                                              
+Start of Packet:        0xffff                                                                                          
+Client ID:              0xff                                                                                            
+Packet Type:            0xfff2                                                                                          
+Segment Number:         3                                                                                               
+End of Packet:          0xffff                                                                                          
+                                                                                                                        
+                                                                                                                        
+DATA PACKET---->
+Start of Packet:        0xffff
+Client ID:              0xff
+Packet Type:            0xfff1
+Segment Number:         4
+Length of Payload:      3 
+Payload:                4 4 4 
+End of Packet:          0xffff
+
+
+ACKNOWLEDGMENT PACKET---->
+Start of Packet:        0xffff
+Client ID:              0xff
+Packet Type:            0xfff2
+Segment Number:         4
+End of Packet:          0xffff
+
+
+DATA PACKET---->
+Start of Packet:        0xffff
+Client ID:              0xff
+Packet Type:            0xfff1
+Segment Number:         5
+Length of Payload:      3 
+Payload:                5 5 5 
+End of Packet:          0xffff
+
+
+ACKNOWLEDGMENT PACKET---->
+Start of Packet:        0xffff
+Client ID:              0xff
+Packet Type:            0xfff2
+Segment Number:         5
+End of Packet:          0xffff
+
+~~~~~~~~~~~~~~~~~~~~~~~Choose one of the options from below~~~~~~~~~~~~~~~~~~~~~~~
+
+1. Send Packets
+2. Simulate Out of Sequence error
+3. Simulate Length Mismatch error
+4. Simulate Missing End of Packet Identifier error
+5. Simulate Duplicate Packet error
+6. All errors
+7. Timer case
+8. Exit
+6
+
+~~~~~~~~~~~~~~~~~~~~~~~Simulating All errors~~~~~~~~~~~~~~~~~~~~~~~
+
+DATA PACKET---->
+Start of Packet:        0xffff
+Client ID:              0xff
+Packet Type:            0xfff1
+Segment Number:         1
+Length of Payload:      3 
+Payload:                1 1 1 
+End of Packet:          0xffff
+
+
+ACKNOWLEDGMENT PACKET---->
+Start of Packet:        0xffff
+Client ID:              0xff
+Packet Type:            0xfff2
+Segment Number:         1
+End of Packet:          0xffff
+
+
+DATA PACKET---->
+Start of Packet:        0xffff
+Client ID:              0xff
+Packet Type:            0xfff1
+Segment Number:         5
+Length of Payload:      3 
+Payload:                1 1 1 
+End of Packet:          0xffff
+
+OUT OF SEQUENCE ERROR 
+
+REJECT PACKET---->
+Start of Packet:        0xffff
+Client ID:              0xff
+Packet Type:            0xfff3
+Error Subcode:          fff4
+Segment Number:         5
+End of Packet:          0xffff
+
+
+DATA PACKET---->
+Start of Packet:        0xffff
+Client ID:              0xff
+Packet Type:            0xfff1
+Segment Number:         2
+Length of Payload:      4 
+Payload:                1 1 1 
+End of Packet:          0xffff
+
+LENGTH MISMATCH ERROR 
+
+REJECT PACKET---->
+Start of Packet:        0xffff
+Client ID:              0xff
+Packet Type:            0xfff3
+Error Subcode:          fff5
+Segment Number:         2
+End of Packet:          0xffff
+
+
+DATA PACKET---->
+Start of Packet:        0xffff
+Client ID:              0xff
+Packet Type:            0xfff1
+Segment Number:         2
+Length of Payload:      3 
+Payload:                1 1 1 
+End of Packet:          0xffff
+
+END OF PACKET MISSING ERROR 
+
+REJECT PACKET---->
+Start of Packet:        0xffff
+Client ID:              0xff
+Packet Type:            0xfff3
+Error Subcode:          fff6
+Segment Number:         2
+End of Packet:          0xffff
+
+
+DATA PACKET---->
+Start of Packet:        0xffff
+Client ID:              0xff
+Packet Type:            0xfff1
+Segment Number:         1
+Length of Payload:      3 
+Payload:                1 1 1 
+End of Packet:          0xffff
+
+DUPLICATE PACKET ERROR 
+
+REJECT PACKET---->
+Start of Packet:        0xffff
+Client ID:              0xff
+Packet Type:            0xfff3
+Error Subcode:          fff7
+Segment Number:         1
+End of Packet:          0xffff
+
+~~~~~~~~~~~~~~~~~~~~~~~Choose one of the options from below~~~~~~~~~~~~~~~~~~~~~~~
+
+1. Send Packets
+2. Simulate Out of Sequence error
+3. Simulate Length Mismatch error
+4. Simulate Missing End of Packet Identifier error
+5. Simulate Duplicate Packet error
+6. All errors
+7. Timer case
+8. Exit
+7
+
+~~~~~~~~~~~~~~~~~~~~~~~Timer case~~~~~~~~~~~~~~~~~~~~~~~
+
+DATA PACKET---->
+Start of Packet:        0xffff
+Client ID:              0xff
+Packet Type:            0xfff1
+Segment Number:         99
+Length of Payload:      3 
+Payload:                1 1 1 
+End of Packet:          0xffff
+
+Response from server not received.Trying again....
+
+Response from server not received.Trying again....
+
+Response from server not received.Trying again....
+
+Server is not responding. Please try again.
+
+~~~~~~~~~~~~~~~~~~~~~~~Choose one of the options from below~~~~~~~~~~~~~~~~~~~~~~~
+
+1. Send Packets
+2. Simulate Out of Sequence error
+3. Simulate Length Mismatch error
+4. Simulate Missing End of Packet Identifier error
+5. Simulate Duplicate Packet error
+6. All errors
+7. Timer case
+8. Exit
+8
+
+ ~~~~~~~~~~~~~~~~~~~~~~~Exiting~~~~~~~~~~~~~~~~~~~~~~~
+[achennup@linux60409 Assignment-1]$ 
+ 

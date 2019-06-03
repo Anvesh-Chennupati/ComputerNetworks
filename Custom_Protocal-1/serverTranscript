@@ -1,0 +1,20 @@
+[achennup@linux60409 Assignment-1]$ gcc -o server server.c
+[achennup@linux60409 Assignment-1]$ ./server
+
+ ~~~~~~~~~~~~~~~~~~~~~~~Server Started~~~~~~~~~~~~~~~~~~~~~~~
+Sending Acknowledgement 
+Sending Acknowledgement 
+Sending Acknowledgement 
+Sending Acknowledgement 
+Sending Acknowledgement 
+Received 5 packets. Resetting fields
+
+Sending Acknowledgement 
+Out of Sequence error. Sending reject packet
+
+Length Mismatch error. Sending reject packet
+
+End of packet missing error. Sending reject packet
+
+Duplicate packets received. Sending reject packet
+ 

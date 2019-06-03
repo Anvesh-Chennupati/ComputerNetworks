@@ -1,0 +1,489 @@
+
+[achennup@linux60415 Assignment-2]$ gcc -o server server.c
+[achennup@linux60415 Assignment-2]$ ./server 
+
+Reading Verification_Database.txt finished.
+40 Entries read from database.
+Waiting for clients connection.
+
+ ~~~~~~~~~~~~~~~~~~~~~~~Server Started~~~~~~~~~~~~~~~~~~~~~~~
+Received authentication request from client.
+packetID:		ffff
+Client id :		ff
+Access permission:	fff8
+Segment no :		1 
+length			14
+Technology		4 
+Subscriber no:		4079714634 
+end of datapacket id:	ffff 
+
+Subscriber has paid.
+
+Received authentication request from client.
+packetID:		ffff
+Client id :		ff
+Access permission:	fff8
+Segment no :		2 
+length			14
+Technology		3 
+Subscriber no:		4081356437 
+end of datapacket id:	ffff 
+
+Subscriber has not paid
+
+Received authentication request from client.
+packetID:		ffff
+Client id :		ff
+Access permission:	fff8
+Segment no :		3 
+length			14
+Technology		4 
+Subscriber no:		4015807139 
+end of datapacket id:	ffff 
+
+Subscriber has paid.
+
+Received authentication request from client.
+packetID:		ffff
+Client id :		ff
+Access permission:	fff8
+Segment no :		4 
+length			14
+Technology		1 
+Subscriber no:		4083340842 
+end of datapacket id:	ffff 
+
+Subscriber has not paid
+
+Received authentication request from client.
+packetID:		ffff
+Client id :		ff
+Access permission:	fff8
+Segment no :		5 
+length			14
+Technology		2 
+Subscriber no:		4023142508 
+end of datapacket id:	ffff 
+
+Subscriber has not paid
+
+Received authentication request from client.
+packetID:		ffff
+Client id :		ff
+Access permission:	fff8
+Segment no :		6 
+length			14
+Technology		2 
+Subscriber no:		4000908761 
+end of datapacket id:	ffff 
+
+Subscriber does not exist
+
+Received authentication request from client.
+packetID:		ffff
+Client id :		ff
+Access permission:	fff8
+Segment no :		7 
+length			14
+Technology		5 
+Subscriber no:		4049405184 
+end of datapacket id:	ffff 
+
+Subscriber does not exist
+
+Received authentication request from client.
+packetID:		ffff
+Client id :		ff
+Access permission:	fff8
+Segment no :		8 
+length			14
+Technology		3 
+Subscriber no:		4087542835 
+end of datapacket id:	ffff 
+
+Subscriber does not exist
+
+Received authentication request from client.
+packetID:		ffff
+Client id :		ff
+Access permission:	fff8
+Segment no :		9 
+length			14
+Technology		2 
+Subscriber no:		4005452106 
+end of datapacket id:	ffff 
+
+Subscriber has not paid
+
+Received authentication request from client.
+packetID:		ffff
+Client id :		ff
+Access permission:	fff8
+Segment no :		10 
+length			14
+Technology		1 
+Subscriber no:		4006814386 
+end of datapacket id:	ffff 
+
+Subscriber has not paid
+
+Received authentication request from client.
+packetID:		ffff
+Client id :		ff
+Access permission:	fff8
+Segment no :		11 
+length			14
+Technology		5 
+Subscriber no:		4070072958 
+end of datapacket id:	ffff 
+
+Subscriber has not paid
+
+Received authentication request from client.
+packetID:		ffff
+Client id :		ff
+Access permission:	fff8
+Segment no :		12 
+length			14
+Technology		1 
+Subscriber no:		4088856735 
+end of datapacket id:	ffff 
+
+Subscriber has paid.
+
+Received authentication request from client.
+packetID:		ffff
+Client id :		ff
+Access permission:	fff8
+Segment no :		13 
+length			14
+Technology		1 
+Subscriber no:		4074491139 
+end of datapacket id:	ffff 
+
+Subscriber does not exist
+
+Received authentication request from client.
+packetID:		ffff
+Client id :		ff
+Access permission:	fff8
+Segment no :		14 
+length			14
+Technology		2 
+Subscriber no:		4082797150 
+end of datapacket id:	ffff 
+
+Subscriber has paid.
+
+Received authentication request from client.
+packetID:		ffff
+Client id :		ff
+Access permission:	fff8
+Segment no :		15 
+length			14
+Technology		2 
+Subscriber no:		4019982402 
+end of datapacket id:	ffff 
+
+Subscriber has not paid
+
+Received authentication request from client.
+packetID:		ffff
+Client id :		ff
+Access permission:	fff8
+Segment no :		16 
+length			14
+Technology		3 
+Subscriber no:		4029222638 
+end of datapacket id:	ffff 
+
+Subscriber has paid.
+
+Received authentication request from client.
+packetID:		ffff
+Client id :		ff
+Access permission:	fff8
+Segment no :		17 
+length			14
+Technology		4 
+Subscriber no:		4060252050 
+end of datapacket id:	ffff 
+
+Subscriber has paid.
+
+Received authentication request from client.
+packetID:		ffff
+Client id :		ff
+Access permission:	fff8
+Segment no :		18 
+length			14
+Technology		5 
+Subscriber no:		4094299740 
+end of datapacket id:	ffff 
+
+Subscriber has not paid
+
+Received authentication request from client.
+packetID:		ffff
+Client id :		ff
+Access permission:	fff8
+Segment no :		19 
+length			14
+Technology		4 
+Subscriber no:		4031743172 
+end of datapacket id:	ffff 
+
+Subscriber does not exist
+
+Received authentication request from client.
+packetID:		ffff
+Client id :		ff
+Access permission:	fff8
+Segment no :		20 
+length			12
+Technology		1 
+Subscriber no:		4027983409 
+end of datapacket id:	ffff 
+
+Subscriber has not paid
+
+Received authentication request from client.
+packetID:		ffff
+Client id :		ff
+Access permission:	fff8
+Segment no :		1 
+length			14
+Technology		4 
+Subscriber no:		4079714634 
+end of datapacket id:	ffff 
+
+Subscriber has paid.
+
+Received authentication request from client.
+packetID:		ffff
+Client id :		ff
+Access permission:	fff8
+Segment no :		2 
+length			14
+Technology		3 
+Subscriber no:		4081356437 
+end of datapacket id:	ffff 
+
+Subscriber has not paid
+
+Received authentication request from client.
+packetID:		ffff
+Client id :		ff
+Access permission:	fff8
+Segment no :		3 
+length			14
+Technology		4 
+Subscriber no:		4015807139 
+end of datapacket id:	ffff 
+
+Subscriber has paid.
+
+Received authentication request from client.
+packetID:		ffff
+Client id :		ff
+Access permission:	fff8
+Segment no :		4 
+length			14
+Technology		1 
+Subscriber no:		4083340842 
+end of datapacket id:	ffff 
+
+Subscriber has not paid
+
+Received authentication request from client.
+packetID:		ffff
+Client id :		ff
+Access permission:	fff8
+Segment no :		5 
+length			14
+Technology		2 
+Subscriber no:		4023142508 
+end of datapacket id:	ffff 
+
+Subscriber has not paid
+
+Received authentication request from client.
+packetID:		ffff
+Client id :		ff
+Access permission:	fff8
+Segment no :		6 
+length			14
+Technology		2 
+Subscriber no:		4000908761 
+end of datapacket id:	ffff 
+
+Subscriber does not exist
+
+Received authentication request from client.
+packetID:		ffff
+Client id :		ff
+Access permission:	fff8
+Segment no :		7 
+length			14
+Technology		5 
+Subscriber no:		4049405184 
+end of datapacket id:	ffff 
+
+Subscriber does not exist
+
+Received authentication request from client.
+packetID:		ffff
+Client id :		ff
+Access permission:	fff8
+Segment no :		8 
+length			14
+Technology		3 
+Subscriber no:		4087542835 
+end of datapacket id:	ffff 
+
+Subscriber does not exist
+
+Received authentication request from client.
+packetID:		ffff
+Client id :		ff
+Access permission:	fff8
+Segment no :		9 
+length			14
+Technology		2 
+Subscriber no:		4005452106 
+end of datapacket id:	ffff 
+
+Subscriber has not paid
+
+Received authentication request from client.
+packetID:		ffff
+Client id :		ff
+Access permission:	fff8
+Segment no :		10 
+length			14
+Technology		1 
+Subscriber no:		4006814386 
+end of datapacket id:	ffff 
+
+Subscriber has not paid
+
+Received authentication request from client.
+packetID:		ffff
+Client id :		ff
+Access permission:	fff8
+Segment no :		11 
+length			14
+Technology		5 
+Subscriber no:		4070072958 
+end of datapacket id:	ffff 
+
+Subscriber has not paid
+
+Received authentication request from client.
+packetID:		ffff
+Client id :		ff
+Access permission:	fff8
+Segment no :		12 
+length			14
+Technology		1 
+Subscriber no:		4088856735 
+end of datapacket id:	ffff 
+
+Subscriber has paid.
+
+Received authentication request from client.
+packetID:		ffff
+Client id :		ff
+Access permission:	fff8
+Segment no :		13 
+length			14
+Technology		1 
+Subscriber no:		4074491139 
+end of datapacket id:	ffff 
+
+Subscriber does not exist
+
+Received authentication request from client.
+packetID:		ffff
+Client id :		ff
+Access permission:	fff8
+Segment no :		14 
+length			14
+Technology		2 
+Subscriber no:		4082797150 
+end of datapacket id:	ffff 
+
+Subscriber has paid.
+
+Received authentication request from client.
+packetID:		ffff
+Client id :		ff
+Access permission:	fff8
+Segment no :		15 
+length			14
+Technology		2 
+Subscriber no:		4019982402 
+end of datapacket id:	ffff 
+
+Subscriber has not paid
+
+Received authentication request from client.
+packetID:		ffff
+Client id :		ff
+Access permission:	fff8
+Segment no :		16 
+length			14
+Technology		3 
+Subscriber no:		4029222638 
+end of datapacket id:	ffff 
+
+Subscriber has paid.
+
+Received authentication request from client.
+packetID:		ffff
+Client id :		ff
+Access permission:	fff8
+Segment no :		17 
+length			14
+Technology		4 
+Subscriber no:		4060252050 
+end of datapacket id:	ffff 
+
+Subscriber has paid.
+
+Received authentication request from client.
+packetID:		ffff
+Client id :		ff
+Access permission:	fff8
+Segment no :		18 
+length			14
+Technology		5 
+Subscriber no:		4094299740 
+end of datapacket id:	ffff 
+
+Subscriber has not paid
+
+Received authentication request from client.
+packetID:		ffff
+Client id :		ff
+Access permission:	fff8
+Segment no :		19 
+length			14
+Technology		4 
+Subscriber no:		4031743172 
+end of datapacket id:	ffff 
+
+Subscriber does not exist
+
+Received authentication request from client.
+packetID:		ffff
+Client id :		ff
+Access permission:	fff8
+Segment no :		20 
+length			12
+Technology		1 
+Subscriber no:		4027983409 
+end of datapacket id:	ffff 
+
+Subscriber has not paid
+
